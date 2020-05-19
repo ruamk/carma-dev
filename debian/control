@@ -1,0 +1,17 @@
+Source: carma-dev
+Section: carma
+Priority: optional
+Maintainer: Alexander Danilov <alexander.a.danilov@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/ruamk/carma-dev
+Vcs-Browser: https://github.com/ruamk/carma-dev
+Vcs-Git: https://github.com/ruamk/carma-dev.git
+
+Package: carma-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: haskell-stack, stack
+Description: Install tools to build CaRMa
+ Install tools to build CaRMa
+
